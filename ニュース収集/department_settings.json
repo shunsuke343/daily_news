@@ -1,0 +1,583 @@
+{
+  "interior": {
+    "rss_feeds": [
+      {
+        "name": "レスポンス",
+        "url": "https://news.yahoo.co.jp/rss/media/rps/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "carview!",
+        "url": "https://news.yahoo.co.jp/rss/media/carv/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "MotorFan",
+        "url": "https://news.yahoo.co.jp/rss/media/motorfan/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "WEB CARTOP",
+        "url": "https://news.yahoo.co.jp/rss/media/wcartop/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "webCG",
+        "url": "https://news.yahoo.co.jp/rss/media/webcg/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "Auto Messe Web",
+        "url": "https://news.yahoo.co.jp/rss/media/amweb/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "VAGUE",
+        "url": "https://news.yahoo.co.jp/rss/media/vague/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "ベストカーWeb",
+        "url": "https://news.yahoo.co.jp/rss/media/bestcar/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "くるまのニュース",
+        "url": "https://news.yahoo.co.jp/rss/media/kurumans/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "日刊自動車新聞",
+        "url": "https://news.yahoo.co.jp/rss/media/netdenjd/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "THE EV TIMES",
+        "url": "https://news.yahoo.co.jp/rss/media/evtimes/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "AUTOCAR JAPAN",
+        "url": "https://news.yahoo.co.jp/rss/media/autocar/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "AUTO BILD JAPAN Web",
+        "url": "https://news.yahoo.co.jp/rss/media/autobild/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "ドライバーWeb",
+        "url": "https://news.yahoo.co.jp/rss/media/driverweb/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "MONOist",
+        "url": "https://news.yahoo.co.jp/rss/media/it_monoist/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "EE Times Japan",
+        "url": "https://news.yahoo.co.jp/rss/media/it_eetimes/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "TechTargetジャパン",
+        "url": "https://news.yahoo.co.jp/rss/media/zdn_tt/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "ZDNET Japan",
+        "url": "https://news.yahoo.co.jp/rss/media/zdnet/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "CNET Japan",
+        "url": "https://news.yahoo.co.jp/rss/media/cnetj/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "Impress Watch",
+        "url": "https://news.yahoo.co.jp/rss/media/impress/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "ScanNetSecurity",
+        "url": "https://news.yahoo.co.jp/rss/media/scan/all.xml",
+        "country": "日本"
+      },
+      {
+        "name": "The Drive",
+        "url": "https://www.thedrive.com/rss/all",
+        "country": "米国"
+      },
+      {
+        "name": "Motor1",
+        "url": "https://www.motor1.com/rss/news/all/",
+        "country": "米国"
+      },
+      {
+        "name": "CarScoops",
+        "url": "https://www.carscoops.com/feed/",
+        "country": "米国"
+      },
+      {
+        "name": "Jalopnik",
+        "url": "https://jalopnik.com/rss",
+        "country": "米国"
+      },
+      {
+        "name": "Car and Driver",
+        "url": "https://www.caranddriver.com/rss/all.xml/",
+        "country": "米国"
+      },
+      {
+        "name": "The Car Connection",
+        "url": "https://feeds.highgearmedia.com/?sites=TheCarConnection&type=all",
+        "country": "米国"
+      },
+      {
+        "name": "The Truth About Cars",
+        "url": "https://www.thetruthaboutcars.com/rss/feed/all",
+        "country": "米国"
+      },
+      {
+        "name": "The Torque Report",
+        "url": "https://www.thetorquereport.com/feed",
+        "country": "米国"
+      },
+      {
+        "name": "Top Speed",
+        "url": "https://www.topspeed.com/feed",
+        "country": "米国"
+      },
+      {
+        "name": "CarComplaints",
+        "url": "https://www.carcomplaints.com/news/feed.xml",
+        "country": "米国"
+      },
+      {
+        "name": "NVIDIA Blog - Auto",
+        "url": "https://blogs.nvidia.com/blog/category/auto/feed/",
+        "country": "米国"
+      },
+      {
+        "name": "AUTOCAR UK",
+        "url": "https://www.autocar.co.uk/rss",
+        "country": "欧州"
+      },
+      {
+        "name": "Auto Express",
+        "url": "https://www.autoexpress.co.uk/feed/all",
+        "country": "欧州"
+      },
+      {
+        "name": "Autocar Reviews",
+        "url": "https://www.autocar.co.uk/rss/reviews",
+        "country": "欧州"
+      },
+      {
+        "name": "Auto Express Car News",
+        "url": "https://www.autoexpress.co.uk/car-news/feed",
+        "country": "欧州"
+      },
+      {
+        "name": "Autohome (CN)",
+        "url": "https://www.autohome.com.cn/rss/news.xml",
+        "country": "中国"
+      },
+      {
+        "name": "PCauto (CN)",
+        "url": "https://www.pcauto.com.cn/rss/news.xml",
+        "country": "中国"
+      },
+      {
+        "name": "CarNewsChina - All",
+        "url": "https://carnewschina.com/feed/",
+        "country": "中国"
+      },
+      {
+        "name": "CarNewsChina - EV",
+        "url": "https://carnewschina.com/category/electric-vehicles/feed/",
+        "country": "中国"
+      },
+      {
+        "name": "CarNewsChina - ICE",
+        "url": "https://carnewschina.com/category/internal-combustion-engine-vehicles/feed/",
+        "country": "中国"
+      },
+      {
+        "name": "CnEVPost - All",
+        "url": "https://cnevpost.com/feed/",
+        "country": "中国"
+      },
+      {
+        "name": "CnEVPost - Huawei",
+        "url": "https://cnevpost.com/huawei/feed",
+        "country": "中国"
+      },
+      {
+        "name": "CnEVPost - Xiaomi",
+        "url": "https://cnevpost.com/xiaomi/feed",
+        "country": "中国"
+      },
+      {
+        "name": "CnEVPost - Self-driving",
+        "url": "https://cnevpost.com/self-driving/feed",
+        "country": "中国"
+      },
+      {
+        "name": "CnEVPost - Industry",
+        "url": "https://cnevpost.com/industry/feed",
+        "country": "中国"
+      },
+      {
+        "name": "CnEVPost - Policy",
+        "url": "https://cnevpost.com/policy/feed",
+        "country": "中国"
+      },
+      {
+        "name": "Inside China Auto - All",
+        "url": "https://insidechinaauto.com/feed",
+        "country": "中国"
+      },
+      {
+        "name": "Gasgoo CN - Class 107",
+        "url": "https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=107",
+        "country": "中国"
+      },
+      {
+        "name": "Gasgoo CN - Class 108",
+        "url": "https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=108",
+        "country": "中国"
+      },
+      {
+        "name": "Gasgoo CN - Class 109",
+        "url": "https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=109",
+        "country": "中国"
+      },
+      {
+        "name": "Gasgoo CN - Class 110",
+        "url": "https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=110",
+        "country": "中国"
+      },
+      {
+        "name": "Gasgoo CN - Class 409",
+        "url": "https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=409",
+        "country": "中国"
+      },
+      {
+        "name": "Gasgoo CN - Class 601",
+        "url": "https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=601",
+        "country": "中国"
+      },
+      {
+        "name": "Gasgoo CN - Class 501",
+        "url": "https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=501",
+        "country": "中国"
+      },
+      {
+        "name": "Gasgoo CN - Class 103",
+        "url": "https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=103",
+        "country": "中国"
+      },
+      {
+        "name": "Gasgoo CN - Class 901",
+        "url": "https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=901",
+        "country": "中国"
+      },
+      {
+        "name": "Gasgoo CN - Class 112",
+        "url": "https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=112",
+        "country": "中国"
+      },
+      {
+        "name": "ETAuto - Auto Components",
+        "url": "https://auto.economictimes.indiatimes.com/rss/auto-components",
+        "country": "インド"
+      },
+      {
+        "name": "ETAuto - Auto Technology",
+        "url": "https://auto.economictimes.indiatimes.com/rss/auto-technology",
+        "country": "インド"
+      },
+      {
+        "name": "Autocar India - All",
+        "url": "https://www.autocarindia.com/rss/all",
+        "country": "インド"
+      },
+      {
+        "name": "RushLane",
+        "url": "https://www.rushlane.com/feed",
+        "country": "インド"
+      },
+      {
+        "name": "GaadiWaadi",
+        "url": "https://gaadiwaadi.com/feed",
+        "country": "インド"
+      },
+      {
+        "name": "IndiaCarNews",
+        "url": "https://www.indiacarnews.com/news/feed",
+        "country": "インド"
+      },
+      {
+        "name": "Car Blog India",
+        "url": "https://www.carblogindia.com/feed",
+        "country": "インド"
+      },
+      {
+        "name": "Auto Punditz",
+        "url": "https://www.autopunditz.com/blog-feed.xml",
+        "country": "インド"
+      },
+      {
+        "name": "PubMed - Search",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/rss/search/1BmJTbU5jL0av9T4Khv68l9Szy9DBfMeC5fs57GWu0vnoYd1mF/?limit=100&utm_campaign=pubmed-2&fc=20260127232539",
+        "country": "論文"
+      }
+    ],
+    "country_settings": {
+      "日本": {
+        "lang": "ja",
+        "bing_market": "ja-JP",
+        "keywords": [
+          "自動車 内装 開発",
+          "車 センターコンソール",
+          "自動車 インパネ",
+          "自動車 内装 加飾",
+          "自動車 内装 新素材",
+          "車 内装 イルミネーション",
+          "自動車 HMI",
+          "自動車 コックピット",
+          "車内 ディスプレイ",
+          "自動車 シート 開発",
+          "車 ステアリング",
+          "自動車 メーター",
+          "車 アンビエントライト",
+          "自動車 ドアトリム",
+          "車 インストルメントパネル",
+          "自動車 ワイヤレス充電",
+          "車 熱マネジメント",
+          "自動車 センシング"
+        ]
+      },
+      "米国": {
+        "lang": "en",
+        "bing_market": "en-US",
+        "keywords": [
+          "Automotive Interior Development",
+          "Car Center Console Design",
+          "Automotive Dashboard Innovation",
+          "Vehicle Instrument Panel",
+          "Automotive Interior Trim Materials",
+          "Car Interior Lighting System",
+          "Automotive HMI Technology",
+          "Vehicle Cockpit Design",
+          "Automotive Seat Technology",
+          "Car Wireless Charging System",
+          "Automotive Display Screen",
+          "Vehicle Interior Design Trends",
+          "Automotive Ambient Lighting",
+          "Car Steering Wheel Technology",
+          "Automotive Door Panel Design",
+          "Vehicle Climate Control Interior",
+          "Automotive Infotainment System",
+          "Car Interior Sensor Technology"
+        ]
+      },
+      "欧州": {
+        "lang": "en",
+        "bing_market": "en-GB",
+        "keywords": [
+          "Automotive Interior Europe",
+          "Car Interior Design Germany",
+          "Vehicle Cockpit Technology Europe",
+          "Automotive HMI Europe",
+          "Car Interior Innovation Europe",
+          "Automotive Seat Design Europe",
+          "Vehicle Dashboard Europe",
+          "Car Console Technology Europe",
+          "Automotive Interior Trim Europe",
+          "Vehicle Lighting System Europe",
+          "Automotive Display Europe",
+          "Car Interior Materials Europe",
+          "Vehicle Climate Control Europe",
+          "Automotive Infotainment Europe",
+          "Car Steering Technology Europe",
+          "Automotive Interior Sensor Europe"
+        ]
+      },
+      "中国": {
+        "lang": "zh",
+        "bing_market": "zh-CN",
+        "keywords": [
+          "汽车 内饰 开发",
+          "汽车 中控台 设计",
+          "汽车 仪表盘 创新",
+          "汽车 内饰 装饰 材料",
+          "汽车 内饰 新材料",
+          "汽车 氛围灯",
+          "汽车 HMI 系统",
+          "汽车 智能座舱",
+          "汽车 显示屏",
+          "汽车 无线充电",
+          "汽车 门板 设计",
+          "汽车 空调 内饰",
+          "汽车 信息娱乐 系统",
+          "汽车 内饰 传感器",
+          "汽车 内饰 照明",
+          "汽车 触控屏"
+        ]
+      },
+      "インド": {
+        "lang": "en",
+        "bing_market": "en-IN",
+        "keywords": [
+          "Automotive Interior India",
+          "Car Interior Design India",
+          "Vehicle Dashboard India",
+          "Automotive Seat Manufacturer India",
+          "Car Interior Technology India",
+          "Automotive HMI India",
+          "Vehicle Cockpit India",
+          "Car Console Design India",
+          "Automotive Interior Trim India",
+          "Car Display System India",
+          "Vehicle Interior Lighting India",
+          "Automotive Infotainment India",
+          "Car Steering Wheel India",
+          "Automotive Interior Materials India",
+          "Vehicle Climate Control India",
+          "Car Interior Innovation India"
+        ]
+      }
+    },
+    "keywords": [
+      "内装",
+      "車室",
+      "コックピット",
+      "インパネ",
+      "ドアトリム",
+      "センターコンソール",
+      "シート",
+      "ステアリング",
+      "メーター",
+      "アンビエントライト",
+      "イルミ",
+      "HMI",
+      "HUD",
+      "タッチ",
+      "音声",
+      "UX",
+      "ディスプレイ",
+      "インフォテインメント",
+      "ワイヤレス充電",
+      "収納",
+      "トレイ",
+      "テーブル",
+      "カップホルダー",
+      "ドリンクホルダー",
+      "スイッチ",
+      "センサー",
+      "センシング",
+      "快適",
+      "新素材",
+      "新材料",
+      "加飾",
+      "表皮",
+      "発泡",
+      "軽量化",
+      "リサイクル材",
+      "バイオ材",
+      "カスタマイズ",
+      "先進",
+      "車",
+      "interior",
+      "dashboard",
+      "cockpit",
+      "console",
+      "seat",
+      "steering",
+      "display",
+      "ambient",
+      "lighting",
+      "trim",
+      "leather",
+      "fabric",
+      "infotainment",
+      "cluster",
+      "panel",
+      "upholstery",
+      "touchscreen",
+      "cabin",
+      "climate",
+      "hvac",
+      "wireless charging",
+      "door panel",
+      "car",
+      "customization",
+      "advanced",
+      "comfort",
+      "new material",
+      "heater",
+      "cup holder",
+      "drink holder",
+      "tray",
+      "table",
+      "slide",
+      "mechanism",
+      "storage",
+      "sensor",
+      "sensing",
+      "switch",
+      "汽车 内饰",
+      "中控",
+      "仪表",
+      "氛围灯",
+      "显示屏",
+      "方向盘",
+      "座舱",
+      "门板",
+      "内饰 传感器",
+      "触控屏",
+      "内饰 材料",
+      "内饰 设计",
+      "车内",
+      "舒适",
+      "新材料"
+    ],
+    "synonym_groups": [
+      [
+        "car",
+        "車",
+        "汽车"
+      ],
+      [
+        "interior",
+        "内装",
+        "内饰",
+        "車内",
+        "車室"
+      ],
+      [
+        "cockpit",
+        "コックピット",
+        "座舱"
+      ],
+      [
+        "dashboard",
+        "インパネ",
+        "仪表"
+      ],
+      [
+        "console",
+        "センターコンソール",
+        "中控"
+      ]
+    ],
+    "prompt_path": "プロンプト.md",
+    "subject_name": "内装",
+    "photo_target_label": "車内装"
+  }
+}
