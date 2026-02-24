@@ -1237,7 +1237,7 @@ def save_with_hyperlinks(df, filename):
                 csv_df[col] = csv_df[col].astype(str).str.replace("\r\n", " ", regex=False)
                 csv_df[col] = csv_df[col].str.replace("\n", " ", regex=False)
                 csv_df[col] = csv_df[col].str.replace("\r", " ", regex=False)
-        csv_df.to_csv(filename, index=False, quoting=csv.QUOTE_ALL, encoding="utf-8", lineterminator="\n")
+        csv_df.to_csv(filename, index=False, quoting=csv.QUOTE_ALL, encoding="utf-8", line_terminator="\n")
         return
 
     df.to_excel(filename, index=False)
@@ -1448,7 +1448,7 @@ def build_sheet2_and_csv(df, excel_path, target_dates):
             sheet2_csv[col] = sheet2_csv[col].astype(str).str.replace("\r\n", " ", regex=False)
             sheet2_csv[col] = sheet2_csv[col].str.replace("\n", " ", regex=False)
             sheet2_csv[col] = sheet2_csv[col].str.replace("\r", " ", regex=False)
-    sheet2_csv.to_csv(csv_path, index=False, quoting=csv.QUOTE_ALL, encoding="utf-8", lineterminator="\n")
+    sheet2_csv.to_csv(csv_path, index=False, quoting=csv.QUOTE_ALL, encoding="utf-8", line_terminator="\n")
 
     if OUTPUT_PAPERS_SHEET2:
         build_papers_sheet2(work, excel_path, target_dates)
@@ -1505,7 +1505,7 @@ def build_papers_sheet2(df, excel_path, target_dates):
             papers_df[col] = papers_df[col].str.replace("\r", " ", regex=False)
 
     papers_path = Path(excel_path).with_name("papers_sheet2.csv")
-    papers_df.to_csv(papers_path, index=False, quoting=csv.QUOTE_ALL, encoding="utf-8-sig", lineterminator="\n")
+    papers_df.to_csv(papers_path, index=False, quoting=csv.QUOTE_ALL, encoding="utf-8-sig", line_terminator="\n")
     print(f"  Papers/CSV output: {len(papers_df)} rows, {papers_path}")
 
 def build_rss_feed_list(path="rss_feed_list.csv"):
@@ -1520,34 +1520,40 @@ def build_rss_feed_list(path="rss_feed_list.csv"):
     if not rows:
         return
     df_list = pd.DataFrame(rows)
-    df_list.to_csv(path, index=False, quoting=csv.QUOTE_ALL, encoding="utf-8-sig", lineterminator="\n")
+    df_list.to_csv(path, index=False, quoting=csv.QUOTE_ALL, encoding="utf-8-sig", line_terminator="\n")
     print(f"  RSS\u30d5\u30a3\u30fc\u30c9\u4e00\u89a7\u3092\u51fa\u529b: {path}")
 
 def fetch_from_rss(target_dates):
-    print("\n=== RSSフィード ===")
+    print("\n=== RSS Feed ===")
     results = []
-    
-    for feed_info in RSS_FEEDS:
+    total_feeds = len(RSS_FEEDS)
+
+    for idx, feed_info in enumerate(RSS_FEEDS, 1):
         name = feed_info["name"]
         url = feed_info["url"]
         country = feed_info["country"]
-        
+        print(f"  [RSS {idx}/{total_feeds}] START {name}")
+
         try:
             timeout = 10
             retries = 1
             if country == "論文" or "pubmed.ncbi.nlm.nih.gov" in url:
                 timeout = 30
                 retries = 2
+
+            print(f"    URL: {url}")
             response = None
-            for _ in range(retries):
+            for attempt in range(1, retries + 1):
                 response = requests.get(url, headers=HEADERS, timeout=timeout)
-                if response and response.status_code == 200:
+                code = response.status_code if response is not None else "no-response"
+                print(f"    try {attempt}/{retries}: status={code}")
+                if response is not None and response.status_code == 200:
                     break
-            
-            if response and response.status_code == 200:
+
+            count = 0
+            if response is not None and response.status_code == 200:
                 feed = feedparser.parse(response.content)
-                count = 0
-                
+
                 for entry in feed.entries:
                     title = entry.get("title", "")
                     link = entry.get("link", "")
@@ -1557,28 +1563,26 @@ def fetch_from_rss(target_dates):
                         continue
                     if not is_target_date(pub_date, target_dates):
                         continue
-                    
+
                     desc = ""
                     if 'summary' in entry:
                         desc = BeautifulSoup(str(entry.get("summary", "")), "html.parser").get_text()
-                    # Google News??????????URL???????????
+
                     resolved_link = resolve_final_url(link)
-                    # ??URL?RSS?????
                     image_url = extract_image_from_rss(entry)
                     if is_missing_url(image_url):
                         image_url = fetch_image_from_page(resolved_link) if resolved_link else ""
                     if is_missing_url(image_url):
-                        # Playwright???URL?????????
                         resolved_pw, image_pw = resolve_with_playwright(resolved_link or link)
                         if resolved_pw:
                             resolved_link = resolved_pw
                         if image_pw:
                             image_url = image_pw
-                    # Yahoo yimg placeholder: fallback to og:image
                     if image_url and is_yimg_placeholder(image_url):
                         alt = fetch_image_from_page(resolved_link) if resolved_link else ""
                         if alt:
                             image_url = alt
+
                     results.append({
                         "国": country,
                         "検索ワード": "RSS",
@@ -1591,19 +1595,18 @@ def fetch_from_rss(target_dates):
                         "ソース": name
                     })
                     count += 1
-                
-                if count > 0:
-                    print(f"  ✓ [{name}] {count}件")
-                    
+
+            print(f"  [RSS {idx}/{total_feeds}] DONE {name}: {count} items")
+
         except KeyboardInterrupt:
-            print("  ✗ RSS取得を中断しました。")
+            print("  RSS fetch interrupted by user.")
             break
         except Exception as e:
-            print(f"  ✗ [{name}] エラー")
-        
+            print(f"  [RSS {idx}/{total_feeds}] ERROR {name}: {type(e).__name__}: {e}")
+
         time.sleep(0.3)
-    
-    print(f"  RSS合計: {len(results)}件")
+
+    print(f"  RSS total: {len(results)} items")
     return results
 
 # ========== ソース2: Bing News 検索（Google News代替）==========
@@ -2229,7 +2232,7 @@ def main():
         except Exception:
             pass
     if not DEPARTMENT and Path(DEPT_SETTINGS_PATH).exists():
-        DEPARTMENT = "interior"
+        DEPARTMENT = "exterior"
     apply_department_settings(DEPARTMENT, DEPT_SETTINGS_PATH)
 
 

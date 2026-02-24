@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>内装製品デイリーニュース</title>
-    <meta name="description" content="生成AIによって前日の内装製品ニュースを収集、要約・翻訳、分析、考察、企画アイデア例をお届け。">
+    <title>外装製品デイリーニュース</title>
+    <meta name="description" content="生成AIによって前日の外装製品ニュースを収集、要約・翻訳、分析、考察、企画アイデア例をお届け。">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
@@ -1665,8 +1665,8 @@
 
 <body>
     <header id="top" class="jump-anchor">
-        <h1><img id="titleIcon" class="title-globe-icon" src="images/icon_world.png" alt="地域">内装製品デイリーニュース</h1>
-        <p class="lead">生成AIによって前日の内装製品ニュースを収集、要約・翻訳、分析、考察、企画アイデア例をお届け</p>
+        <h1><img id="titleIcon" class="title-globe-icon" src="images/icon_world.png" alt="地域">外装製品デイリーニュース</h1>
+        <p class="lead">生成AIによって前日の外装製品ニュースを収集、要約・翻訳、分析、考察、企画アイデア例をお届け</p>
         <div class="access-counter"
             style="margin-top:12px; font-size:12px; color:var(--muted); display:flex; gap:20px; flex-wrap:wrap;">
             <span>📊 総アクセス数: <strong id="totalVisits" style="color:var(--accent);">-</strong></span>
@@ -1675,7 +1675,7 @@
             <span>🕒 更新日時: <strong id="lastUpdated" style="color:var(--accent-4);">-</strong></span>
             <button class="analysis-toggle" id="analysisToggle" type="button" aria-expanded="false">アクセス推移</button>
         </div>
-        <div class="author-line">作成者：IE開発　内装開発室　中村</div>
+        <div class="author-line">作成者：IE開発　外装開発室　中村</div>
     </header>
 
     <div class="filters">
@@ -1841,16 +1841,7 @@
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
         import { getFirestore, runTransaction, doc, getDoc, setDoc, updateDoc, arrayUnion, onSnapshot, increment, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
-
-        const firebaseConfig = {
-            apiKey: "AIzaSyCEKRdUl_mOYjBGLKY35IFWLAHEyDH3Og8",
-            authDomain: "daily-news-9a418.firebaseapp.com",
-            projectId: "daily-news-9a418",
-            storageBucket: "daily-news-9a418.firebasestorage.app",
-            messagingSenderId: "965463819558",
-            appId: "1:965463819558:web:89e6c8907aec51155bede7",
-            measurementId: "G-L82JZQYM25"
-        };
+        import { firebaseConfig } from "./firebase-config.js";
 
         let db;
         function initFirebase() {

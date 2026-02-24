@@ -1,4 +1,4 @@
-# 考察・企画アイデア生成プロンプト
+﻿# 考察・企画アイデア生成プロンプト
 
 このファイルは、ニュースダッシュボードの「考察」および「企画アイデア例」を生成する際に使用するプロンプトテンプレートです。
 
@@ -7,12 +7,12 @@
 ## 考察（Analysis）生成プロンプト
 
 ### 目的
-各国・地域のニュースから、自動車内装製品開発に関連するトレンドや示唆を抽出し、簡潔にまとめる。
+各国・地域のニュースから、自動車外装製品開発に関連するトレンドや示唆を抽出し、簡潔にまとめる。
 
 ### プロンプトテンプレート
 
 ```
-以下の{国名}の自動車内装関連ニュース{件数}件を分析し、内装製品開発の観点から考察を生成してください。
+以下の{国名}の自動車外装関連ニュース{件数}件を分析し、外装製品開発の観点から考察を生成してください。
 
 【対象ニュース】
 {ニュース一覧（タイトル、概要）}
@@ -26,7 +26,7 @@
    - 競合他社の動向
    - 規制・政策の影響
    - サプライチェーンの動向
-4. 自社の内装製品開発への示唆を含める
+4. 自社の外装製品開発への示唆を含める
 5. 日本語で出力する
 
 【出力形式】
@@ -38,12 +38,12 @@
 ## 企画アイデア例（Ideas）生成プロンプト
 
 ### 目的
-考察を踏まえ、具体的な内装製品の企画アイデアを提案する。各国・地域ごとに2件程度。
+考察を踏まえ、具体的な外装製品の企画アイデアを提案する。各国・地域ごとに2件程度。
 
 ### プロンプトテンプレート
 
 ```
-以下の考察を踏まえ、{国名}市場向けの内装製品企画アイデアを2件提案してください。
+以下の考察を踏まえ、{国名}市場向けの外装製品企画アイデアを2件提案してください。
 
 【考察】
 {考察テキスト}
@@ -66,7 +66,7 @@
     {
       "title": "タイトル",
       "desc": "説明文",
-      "imagePrompt": "English prompt for AI image generation: description of the product concept visualization, automotive interior design, photorealistic rendering"
+      "imagePrompt": "English prompt for AI image generation: description of the product concept visualization, automotive exterior design, photorealistic rendering"
     }
   ]
 }
@@ -82,7 +82,7 @@
 ### プロンプト構造
 
 ```
-{Product description}, automotive interior design concept, {specific features}, 
+{Product description}, automotive exterior design concept, {specific features}, 
 modern vehicle cockpit, {materials and colors}, premium quality, 
 photorealistic rendering, professional product visualization, 
 cinematic lighting, high detail, 4K quality
@@ -90,7 +90,7 @@ cinematic lighting, high detail, 4K quality
 
 ### 例
 - コンソール一体型香りディフューザー:
-  `Integrated aromatherapy diffuser built into center console, ambient lighting effects, luxury car interior, brushed aluminum and leather materials, subtle mist effect, warm ambient glow, photorealistic 3D render, premium automotive design`
+  `Integrated aromatherapy diffuser built into center console, ambient lighting effects, luxury car exterior, brushed aluminum and leather materials, subtle mist effect, warm ambient glow, photorealistic 3D render, premium automotive design`
 
 - AIアシスタント搭載HUD:
   `Advanced augmented reality head-up display in premium vehicle, holographic interface floating above dashboard, AI assistant visualization, futuristic cockpit design, night driving scene, blue accent lighting, photorealistic render`
@@ -125,3 +125,4 @@ cinematic lighting, high detail, 4K quality
 ---
 
 最終更新: 2026-01-08
+

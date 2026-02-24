@@ -54,8 +54,14 @@ def run_cmd(cmd, label, log_file):
             for line in proc.stdout:
                 line = line.rstrip("\r\n")
                 if line:
-                    log(f"[{label}] {line}")
-                    print(f"[{label}] {line}", flush=True)
+                    display_line = f"[{label}] {line}"
+                    log(display_line)
+                    try:
+                        print(display_line, flush=True)
+                    except UnicodeEncodeError:
+                        out_enc = sys.stdout.encoding or "utf-8"
+                        safe_line = display_line.encode(out_enc, errors="replace").decode(out_enc, errors="replace")
+                        print(safe_line, flush=True)
         proc.wait()
         log(f"[EXIT] {label}: code={proc.returncode}")
         if proc.returncode != 0:
@@ -95,7 +101,7 @@ def main():
             cur += datetime.timedelta(days=1)
         dates_arg = ",".join(dates)
         try:
-            run_cmd([sys.executable, "-u", str(SCRIPT_DIR / "google_search_script.py"), "--dates", dates_arg], "google_search_script", LOG_FILE)
+            run_cmd([sys.executable, "-u", str(SCRIPT_DIR / "google_search_script.py"), "--dept", "exterior", "--dates", dates_arg], "google_search_script", LOG_FILE)
             run_cmd([sys.executable, "-u", str(ROOT / "auto_update_daily_news.py")], "auto_update_daily_news", LOG_FILE)
             if os.environ.get("OPENAI_API_KEY"):
                 run_cmd([sys.executable, "-u", str(ROOT / "generate_idea_images_openai.py"), "--only-missing", "--quality", "low"], "generate_idea_images_openai", LOG_FILE)

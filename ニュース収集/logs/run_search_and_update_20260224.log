@@ -1,0 +1,390 @@
+==================================================
+[START] 2026-02-24 09:48:53
+[INFO] Target range: 2026-02-11 to 2026-02-23
+[RUN] google_search_script: C:\Users\Demo\AppData\Local\Programs\Python\Python37\python.exe -u C:\Users\Demo\Desktop\aoyama\daily_news\daily_news\ニュース収集\google_search_script.py --dept exterior --dates 2026-02-11,2026-02-12,2026-02-13,2026-02-14,2026-02-15,2026-02-16,2026-02-17,2026-02-18,2026-02-19,2026-02-20,2026-02-21,2026-02-22,2026-02-23
+[PID] google_search_script: 16760
+[google_search_script] 注意: playwright がインストールされていません。pip install playwright で追加できます。
+[google_search_script] ============================================================
+[google_search_script]   外装ニュース収集スクリプト（検証済みRSS版）
+[google_search_script] ============================================================
+[google_search_script] 対象日付: 2026-02-11, 2026-02-12, 2026-02-13, 2026-02-14, 2026-02-15, 2026-02-16, 2026-02-17, 2026-02-18, 2026-02-19, 2026-02-20, 2026-02-21, 2026-02-22, 2026-02-23
+[google_search_script] RSSフィード: 67サイト（検証済み）
+[google_search_script]   RSSフィード一覧を出力: rss_feed_list.csv
+[google_search_script] Bing検索: 各国5地域 × 16-18キーワード
+[google_search_script] === RSS Feed ===
+[google_search_script]   [RSS 1/67] START レスポンス
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/rps/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 1/67] DONE レスポンス: 49 items
+[google_search_script]   [RSS 2/67] START carview!
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/carv/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 2/67] DONE carview!: 49 items
+[google_search_script]   [RSS 3/67] START MotorFan
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/motorfan/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 3/67] DONE MotorFan: 47 items
+[google_search_script]   [RSS 4/67] START WEB CARTOP
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/wcartop/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 4/67] DONE WEB CARTOP: 50 items
+[google_search_script]   [RSS 5/67] START webCG
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/webcg/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 5/67] DONE webCG: 19 items
+[google_search_script]   [RSS 6/67] START Auto Messe Web
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/amweb/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 6/67] DONE Auto Messe Web: 50 items
+[google_search_script]   [RSS 7/67] START VAGUE
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/vague/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 7/67] DONE VAGUE: 50 items
+[google_search_script]   [RSS 8/67] START ベストカーWeb
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/bestcar/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 8/67] DONE ベストカーWeb: 49 items
+[google_search_script]   [RSS 9/67] START くるまのニュース
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/kurumans/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 9/67] DONE くるまのニュース: 47 items
+[google_search_script]   [RSS 10/67] START 日刊自動車新聞
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/netdenjd/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 10/67] DONE 日刊自動車新聞: 32 items
+[google_search_script]   [RSS 11/67] START THE EV TIMES
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/evtimes/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 11/67] DONE THE EV TIMES: 6 items
+[google_search_script]   [RSS 12/67] START AUTOCAR JAPAN
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/autocar/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 12/67] DONE AUTOCAR JAPAN: 50 items
+[google_search_script]   [RSS 13/67] START AUTO BILD JAPAN Web
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/autobild/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 13/67] DONE AUTO BILD JAPAN Web: 45 items
+[google_search_script]   [RSS 14/67] START ドライバーWeb
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/driverweb/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 14/67] DONE ドライバーWeb: 0 items
+[google_search_script]   [RSS 15/67] START MONOist
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/it_monoist/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 15/67] DONE MONOist: 5 items
+[google_search_script]   [RSS 16/67] START EE Times Japan
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/it_eetimes/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 16/67] DONE EE Times Japan: 13 items
+[google_search_script]   [RSS 17/67] START TechTargetジャパン
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/zdn_tt/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 17/67] DONE TechTargetジャパン: 13 items
+[google_search_script]   [RSS 18/67] START ZDNET Japan
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/zdnet/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 18/67] DONE ZDNET Japan: 48 items
+[google_search_script]   [RSS 19/67] START CNET Japan
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/cnetj/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 19/67] DONE CNET Japan: 49 items
+[google_search_script]   [RSS 20/67] START Impress Watch
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/impress/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 20/67] DONE Impress Watch: 50 items
+[google_search_script]   [RSS 21/67] START ScanNetSecurity
+[google_search_script]     URL: https://news.yahoo.co.jp/rss/media/scan/all.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 21/67] DONE ScanNetSecurity: 3 items
+[google_search_script]   [RSS 22/67] START The Drive
+[google_search_script]     URL: https://www.thedrive.com/rss/all
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 22/67] DONE The Drive: 12 items
+[google_search_script]   [RSS 23/67] START Motor1
+[google_search_script]     URL: https://www.motor1.com/rss/news/all/
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 23/67] DONE Motor1: 20 items
+[google_search_script]   [RSS 24/67] START CarScoops
+[google_search_script]     URL: https://www.carscoops.com/feed/
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 24/67] DONE CarScoops: 16 items
+[google_search_script]   [RSS 25/67] START Jalopnik
+[google_search_script]     URL: https://jalopnik.com/rss
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 25/67] DONE Jalopnik: 19 items
+[google_search_script]   [RSS 26/67] START Car and Driver
+[google_search_script]     URL: https://www.caranddriver.com/rss/all.xml/
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 26/67] DONE Car and Driver: 50 items
+[google_search_script]   [RSS 27/67] START The Car Connection
+[google_search_script]     URL: https://feeds.highgearmedia.com/?sites=TheCarConnection&type=all
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 27/67] DONE The Car Connection: 0 items
+[google_search_script]   [RSS 28/67] START The Truth About Cars
+[google_search_script]     URL: https://www.thetruthaboutcars.com/rss/feed/all
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 28/67] DONE The Truth About Cars: 50 items
+[google_search_script]   [RSS 29/67] START The Torque Report
+[google_search_script]     URL: https://www.thetorquereport.com/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 29/67] DONE The Torque Report: 6 items
+[google_search_script]   [RSS 30/67] START Top Speed
+[google_search_script]     URL: https://www.topspeed.com/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 30/67] DONE Top Speed: 9 items
+[google_search_script]   [RSS 31/67] START CarComplaints
+[google_search_script]     URL: https://www.carcomplaints.com/news/feed.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 31/67] DONE CarComplaints: 18 items
+[google_search_script]   [RSS 32/67] START NVIDIA Blog - Auto
+[google_search_script]     URL: https://blogs.nvidia.com/blog/category/auto/feed/
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 32/67] DONE NVIDIA Blog - Auto: 0 items
+[google_search_script]   [RSS 33/67] START AUTOCAR UK
+[google_search_script]     URL: https://www.autocar.co.uk/rss
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 33/67] DONE AUTOCAR UK: 46 items
+[google_search_script]   [RSS 34/67] START Auto Express
+[google_search_script]     URL: https://www.autoexpress.co.uk/feed/all
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 34/67] DONE Auto Express: 29 items
+[google_search_script]   [RSS 35/67] START Autocar Reviews
+[google_search_script]     URL: https://www.autocar.co.uk/rss/reviews
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 35/67] DONE Autocar Reviews: 46 items
+[google_search_script]   [RSS 36/67] START Auto Express Car News
+[google_search_script]     URL: https://www.autoexpress.co.uk/car-news/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 36/67] DONE Auto Express Car News: 0 items
+[google_search_script]   [RSS 37/67] START Autohome (CN)
+[google_search_script]     URL: https://www.autohome.com.cn/rss/news.xml
+[google_search_script]     try 1/1: status=404
+[google_search_script]   [RSS 37/67] DONE Autohome (CN): 0 items
+[google_search_script]   [RSS 38/67] START PCauto (CN)
+[google_search_script]     URL: https://www.pcauto.com.cn/rss/news.xml
+[google_search_script]     try 1/1: status=404
+[google_search_script]   [RSS 38/67] DONE PCauto (CN): 0 items
+[google_search_script]   [RSS 39/67] START CarNewsChina - All
+[google_search_script]     URL: https://carnewschina.com/feed/
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 39/67] DONE CarNewsChina - All: 10 items
+[google_search_script]   [RSS 40/67] START CarNewsChina - EV
+[google_search_script]     URL: https://carnewschina.com/category/electric-vehicles/feed/
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 40/67] DONE CarNewsChina - EV: 10 items
+[google_search_script]   [RSS 41/67] START CarNewsChina - ICE
+[google_search_script]     URL: https://carnewschina.com/category/internal-combustion-engine-vehicles/feed/
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 41/67] DONE CarNewsChina - ICE: 9 items
+[google_search_script]   [RSS 42/67] START CnEVPost - All
+[google_search_script]     URL: https://cnevpost.com/feed/
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 42/67] DONE CnEVPost - All: 23 items
+[google_search_script]   [RSS 43/67] START CnEVPost - Huawei
+[google_search_script]     URL: https://cnevpost.com/huawei/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 43/67] DONE CnEVPost - Huawei: 0 items
+[google_search_script]   [RSS 44/67] START CnEVPost - Xiaomi
+[google_search_script]     URL: https://cnevpost.com/xiaomi/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 44/67] DONE CnEVPost - Xiaomi: 2 items
+[google_search_script]   [RSS 45/67] START CnEVPost - Self-driving
+[google_search_script]     URL: https://cnevpost.com/self-driving/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 45/67] DONE CnEVPost - Self-driving: 1 items
+[google_search_script]   [RSS 46/67] START CnEVPost - Industry
+[google_search_script]     URL: https://cnevpost.com/industry/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 46/67] DONE CnEVPost - Industry: 3 items
+[google_search_script]   [RSS 47/67] START CnEVPost - Policy
+[google_search_script]     URL: https://cnevpost.com/policy/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 47/67] DONE CnEVPost - Policy: 1 items
+[google_search_script]   [RSS 48/67] START Inside China Auto - All
+[google_search_script]     URL: https://insidechinaauto.com/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 48/67] DONE Inside China Auto - All: 5 items
+[google_search_script]   [RSS 49/67] START Gasgoo CN - Class 107
+[google_search_script]     URL: https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=107
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 49/67] DONE Gasgoo CN - Class 107: 6 items
+[google_search_script]   [RSS 50/67] START Gasgoo CN - Class 108
+[google_search_script]     URL: https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=108
+[google_search_script]   [RSS 50/67] ERROR Gasgoo CN - Class 108: ConnectTimeout: HTTPSConnectionPool(host='auto.gasgoo.com', port=443): Max retries exceeded with url: /Rss/ClassRss.aspx?ClassId=108 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AE56767F08>, 'Connection to auto.gasgoo.com timed out. (connect timeout=10)'))
+[google_search_script]   [RSS 51/67] START Gasgoo CN - Class 109
+[google_search_script]     URL: https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=109
+[google_search_script]   [RSS 51/67] ERROR Gasgoo CN - Class 109: ConnectTimeout: HTTPSConnectionPool(host='auto.gasgoo.com', port=443): Max retries exceeded with url: /Rss/ClassRss.aspx?ClassId=109 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AE5590DC48>, 'Connection to auto.gasgoo.com timed out. (connect timeout=10)'))
+[google_search_script]   [RSS 52/67] START Gasgoo CN - Class 110
+[google_search_script]     URL: https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=110
+[google_search_script]   [RSS 52/67] ERROR Gasgoo CN - Class 110: ConnectTimeout: HTTPSConnectionPool(host='auto.gasgoo.com', port=443): Max retries exceeded with url: /Rss/ClassRss.aspx?ClassId=110 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AE55806588>, 'Connection to auto.gasgoo.com timed out. (connect timeout=10)'))
+[google_search_script]   [RSS 53/67] START Gasgoo CN - Class 409
+[google_search_script]     URL: https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=409
+[google_search_script]   [RSS 53/67] ERROR Gasgoo CN - Class 409: ConnectTimeout: HTTPSConnectionPool(host='auto.gasgoo.com', port=443): Max retries exceeded with url: /Rss/ClassRss.aspx?ClassId=409 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AE584AC408>, 'Connection to auto.gasgoo.com timed out. (connect timeout=10)'))
+[google_search_script]   [RSS 54/67] START Gasgoo CN - Class 601
+[google_search_script]     URL: https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=601
+[google_search_script]   [RSS 54/67] ERROR Gasgoo CN - Class 601: ConnectTimeout: HTTPSConnectionPool(host='auto.gasgoo.com', port=443): Max retries exceeded with url: /Rss/ClassRss.aspx?ClassId=601 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AE55760508>, 'Connection to auto.gasgoo.com timed out. (connect timeout=10)'))
+[google_search_script]   [RSS 55/67] START Gasgoo CN - Class 501
+[google_search_script]     URL: https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=501
+[google_search_script]   [RSS 55/67] ERROR Gasgoo CN - Class 501: ConnectTimeout: HTTPSConnectionPool(host='auto.gasgoo.com', port=443): Max retries exceeded with url: /Rss/ClassRss.aspx?ClassId=501 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AE55A30D48>, 'Connection to auto.gasgoo.com timed out. (connect timeout=10)'))
+[google_search_script]   [RSS 56/67] START Gasgoo CN - Class 103
+[google_search_script]     URL: https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=103
+[google_search_script]   [RSS 56/67] ERROR Gasgoo CN - Class 103: ConnectTimeout: HTTPSConnectionPool(host='auto.gasgoo.com', port=443): Max retries exceeded with url: /Rss/ClassRss.aspx?ClassId=103 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AE5590D9C8>, 'Connection to auto.gasgoo.com timed out. (connect timeout=10)'))
+[google_search_script]   [RSS 57/67] START Gasgoo CN - Class 901
+[google_search_script]     URL: https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=901
+[google_search_script]   [RSS 57/67] ERROR Gasgoo CN - Class 901: ConnectTimeout: HTTPSConnectionPool(host='auto.gasgoo.com', port=443): Max retries exceeded with url: /Rss/ClassRss.aspx?ClassId=901 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AE56767DC8>, 'Connection to auto.gasgoo.com timed out. (connect timeout=10)'))
+[google_search_script]   [RSS 58/67] START Gasgoo CN - Class 112
+[google_search_script]     URL: https://auto.gasgoo.com/Rss/ClassRss.aspx?ClassId=112
+[google_search_script]   [RSS 58/67] ERROR Gasgoo CN - Class 112: ConnectTimeout: HTTPSConnectionPool(host='auto.gasgoo.com', port=443): Max retries exceeded with url: /Rss/ClassRss.aspx?ClassId=112 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AE56767548>, 'Connection to auto.gasgoo.com timed out. (connect timeout=10)'))
+[google_search_script]   [RSS 59/67] START ETAuto - Auto Components
+[google_search_script]     URL: https://auto.economictimes.indiatimes.com/rss/auto-components
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 59/67] DONE ETAuto - Auto Components: 20 items
+[google_search_script]   [RSS 60/67] START ETAuto - Auto Technology
+[google_search_script]     URL: https://auto.economictimes.indiatimes.com/rss/auto-technology
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 60/67] DONE ETAuto - Auto Technology: 20 items
+[google_search_script]   [RSS 61/67] START Autocar India - All
+[google_search_script]     URL: https://www.autocarindia.com/rss/all
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 61/67] DONE Autocar India - All: 10 items
+[google_search_script]   [RSS 62/67] START RushLane
+[google_search_script]     URL: https://www.rushlane.com/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 62/67] DONE RushLane: 8 items
+[google_search_script]   [RSS 63/67] START GaadiWaadi
+[google_search_script]     URL: https://gaadiwaadi.com/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 63/67] DONE GaadiWaadi: 8 items
+[google_search_script]   [RSS 64/67] START IndiaCarNews
+[google_search_script]     URL: https://www.indiacarnews.com/news/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 64/67] DONE IndiaCarNews: 20 items
+[google_search_script]   [RSS 65/67] START Car Blog India
+[google_search_script]     URL: https://www.carblogindia.com/feed
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 65/67] DONE Car Blog India: 10 items
+[google_search_script]   [RSS 66/67] START Auto Punditz
+[google_search_script]     URL: https://www.autopunditz.com/blog-feed.xml
+[google_search_script]     try 1/1: status=200
+[google_search_script]   [RSS 66/67] DONE Auto Punditz: 4 items
+[google_search_script]   [RSS 67/67] START PubMed - Search
+[google_search_script]     URL: https://pubmed.ncbi.nlm.nih.gov/rss/search/1BmJTbU5jL0av9T4Khv68l9Szy9DBfMeC5fs57GWu0vnoYd1mF/?limit=100&utm_campaign=pubmed-2&fc=20260127232539
+[google_search_script]     try 1/2: status=200
+[google_search_script]   [RSS 67/67] DONE PubMed - Search: 4 items
+[google_search_script]   RSS total: 1219 items
+[google_search_script] === Bing News 検索 ===
+[google_search_script]   [日本] 検索中...
+[google_search_script]     -> 0件（RSS無し/日付不一致/重複の可能性）
+[google_search_script]   [米国] 検索中...
+[google_search_script]     -> 4件
+[google_search_script]   [欧州] 検索中...
+[google_search_script]     -> 3件
+[google_search_script]   [中国] 検索中...
+[google_search_script]     -> 中国 / 汽车 外饰 开发... RSSで返っておらず（HTML/制限の可能性）
+[google_search_script]     -> 0件（RSS無し/日付不一致/重複の可能性）
+[google_search_script]   [インド] 検索中...
+[google_search_script]     -> 0件（RSS無し/日付不一致/重複の可能性）
+[google_search_script]   Bing検索合計: 7件
+[google_search_script] === DuckDuckGo News 検索 ===
+[google_search_script]   [日本] 検索中...
+[google_search_script]     -> 0件（DuckDuckGoでヒット無し/日付不一致の可能性）
+[google_search_script]   [米国] 検索中...
+[google_search_script]     -> 0件（DuckDuckGoでヒット無し/日付不一致の可能性）
+[google_search_script]   [欧州] 検索中...
+[google_search_script]     -> 0件（DuckDuckGoでヒット無し/日付不一致の可能性）
+[google_search_script]   [中国] 検索中...
+[google_search_script]     -> 0件（DuckDuckGoでヒット無し/日付不一致の可能性）
+[google_search_script]   [インド] 検索中...
+[google_search_script]     -> 0件（DuckDuckGoでヒット無し/日付不一致の可能性）
+[google_search_script]   DuckDuckGo合計: 0件
+[google_search_script] === Google News RSS ===
+[google_search_script]   [日本] 検索中...
+[google_search_script]     -> 10件
+[google_search_script]   [中国] 検索中...
+[google_search_script]     -> 16件
+[google_search_script]   Google News合計: 26件
+[google_search_script] === NewsAPI.org ===
+[google_search_script]   NewsAPI合計: 0件
+[google_search_script] ============================================================
+[google_search_script] 全ソース合計: 1252件
+[google_search_script]   取得内訳（ソース別）: {'レスポンス': 49, 'carview!': 49, 'MotorFan': 47, 'WEB CARTOP': 50, 'webCG': 19, 'Auto Messe Web': 50, 'VAGUE': 50, 'ベストカーWeb': 49, 'くるまのニュース': 47, '日刊自動車新聞': 32, 'THE EV TIMES': 6, 'AUTOCAR JAPAN': 50, 'AUTO BILD JAPAN Web': 45, 'MONOist': 5, 'EE Times Japan': 13, 'TechTargetジャパン': 13, 'ZDNET Japan': 48, 'CNET Japan': 49, 'Impress Watch': 50, 'ScanNetSecurity': 3, 'The Drive': 12, 'Motor1': 20, 'CarScoops': 16, 'Jalopnik': 19, 'Car and Driver': 50, 'The Truth About Cars': 50, 'The Torque Report': 6, 'Top Speed': 9, 'CarComplaints': 18, 'AUTOCAR UK': 46, 'Auto Express': 29, 'Autocar Reviews': 46, 'CarNewsChina - All': 10, 'CarNewsChina - EV': 10, 'CarNewsChina - ICE': 9, 'CnEVPost - All': 23, 'CnEVPost - Xiaomi': 2, 'CnEVPost - Self-driving': 1, 'CnEVPost - Industry': 3, 'CnEVPost - Policy': 1, 'Inside China Auto - All': 5, 'Gasgoo CN - Class 107': 6, 'ETAuto - Auto Components': 20, 'ETAuto - Auto Technology': 20, 'Autocar India - All': 10, 'RushLane': 8, 'GaadiWaadi': 8, 'IndiaCarNews': 20, 'Car Blog India': 10, 'Auto Punditz': 4, 'PubMed - Search': 4, 'Bing検索': 7, 'GoogleNews': 26}
+[google_search_script]   取得内訳（国別）: {'日本': 734, '米国': 204, '欧州': 124, '中国': 86, 'インド': 100, '論文': 4}
+[google_search_script] === 重複除去処理 ===
+[google_search_script]   重複除去: 74件
+[google_search_script]   重複内訳（ソース別）: {'Car and Driver': 6, 'The Truth About Cars': 1, 'Autocar Reviews': 46, 'CarNewsChina - EV': 6, 'CarNewsChina - ICE': 1, 'CnEVPost - Xiaomi': 2, 'CnEVPost - Self-driving': 1, 'CnEVPost - Industry': 3, 'CnEVPost - Policy': 1, 'Car Blog India': 1, 'Bing検索': 6}
+[google_search_script]   重複理由内訳: {'タイトル類似': 9, '既存URL': 65}
+[google_search_script]   最終結果: 1178件
+[google_search_script]   最終内訳（ソース別）: {'レスポンス': 49, 'carview!': 49, 'MotorFan': 47, 'WEB CARTOP': 50, 'webCG': 19, 'Auto Messe Web': 50, 'VAGUE': 50, 'ベストカーWeb': 49, 'くるまのニュース': 47, '日刊自動車新聞': 32, 'THE EV TIMES': 6, 'AUTOCAR JAPAN': 50, 'AUTO BILD JAPAN Web': 45, 'MONOist': 5, 'EE Times Japan': 13, 'TechTargetジャパン': 13, 'ZDNET Japan': 48, 'CNET Japan': 49, 'Impress Watch': 50, 'ScanNetSecurity': 3, 'The Drive': 12, 'Motor1': 20, 'CarScoops': 16, 'Jalopnik': 19, 'Car and Driver': 44, 'The Truth About Cars': 49, 'The Torque Report': 6, 'Top Speed': 9, 'CarComplaints': 18, 'AUTOCAR UK': 46, 'Auto Express': 29, 'CarNewsChina - All': 10, 'CarNewsChina - EV': 4, 'CarNewsChina - ICE': 8, 'CnEVPost - All': 23, 'Inside China Auto - All': 5, 'Gasgoo CN - Class 107': 6, 'ETAuto - Auto Components': 20, 'ETAuto - Auto Technology': 20, 'Autocar India - All': 10, 'RushLane': 8, 'GaadiWaadi': 8, 'IndiaCarNews': 20, 'Car Blog India': 9, 'Auto Punditz': 4, 'PubMed - Search': 4, 'Bing検索': 1, 'GoogleNews': 26}
+[google_search_script]   最終内訳（国別）: {'日本': 734, '米国': 194, '欧州': 75, '中国': 72, 'インド': 99, '論文': 4}
+[google_search_script]   [新規] 関連度・翻訳処理 1178件 開始
+[google_search_script]   LLM error: HTTPConnectionPool(host='127.0.0.1', port=1234): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AE57DEA888>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。'))
+[google_search_script]     進捗: 1/1178
+[google_search_script]     進捗: 5/1178
+[google_search_script]     進捗: 10/1178
+[google_search_script]     進捗: 15/1178
+[google_search_script]     進捗: 20/1178
+[google_search_script]     進捗: 25/1178
+[google_search_script]     進捗: 30/1178
+[google_search_script]     進捗: 35/1178
+[google_search_script]     進捗: 40/1178
+[google_search_script]     進捗: 45/1178
+[google_search_script]     進捗: 50/1178
+[google_search_script]     進捗: 55/1178
+[google_search_script]     進捗: 60/1178
+[google_search_script]     進捗: 65/1178
+[google_search_script]     進捗: 70/1178
+[google_search_script]     進捗: 75/1178
+[google_search_script]     進捗: 80/1178
+[google_search_script]     進捗: 85/1178
+[google_search_script]     進捗: 90/1178
+[google_search_script]     進捗: 95/1178
+[google_search_script]     進捗: 100/1178
+[google_search_script]     進捗: 105/1178
+[google_search_script]     進捗: 110/1178
+[google_search_script]     進捗: 115/1178
+[google_search_script]     進捗: 120/1178
+[google_search_script]     進捗: 125/1178
+[google_search_script]     進捗: 130/1178
+[google_search_script]     進捗: 135/1178
+[google_search_script]     進捗: 140/1178
+[google_search_script]     進捗: 145/1178
+[google_search_script]     進捗: 150/1178
+[google_search_script]     進捗: 155/1178
+[google_search_script]     進捗: 160/1178
+[google_search_script]     進捗: 165/1178
+[google_search_script]     進捗: 170/1178
+[google_search_script]     進捗: 175/1178
+[google_search_script]     進捗: 180/1178
+[google_search_script]     進捗: 185/1178
+[google_search_script]     進捗: 190/1178
+[google_search_script]     進捗: 195/1178
+[google_search_script]     進捗: 200/1178
+[google_search_script]     進捗: 205/1178
+[google_search_script]     進捗: 210/1178
+[google_search_script]     進捗: 215/1178
+[google_search_script]     進捗: 220/1178
+[google_search_script]     進捗: 225/1178
+[google_search_script]     進捗: 230/1178
+[google_search_script]     進捗: 235/1178
+[google_search_script]     進捗: 240/1178
+[google_search_script]     進捗: 245/1178
+[google_search_script]     進捗: 250/1178
+[google_search_script]     進捗: 255/1178
+[google_search_script]     進捗: 260/1178
+[google_search_script]     進捗: 265/1178
+[google_search_script]     進捗: 270/1178
+[google_search_script]     進捗: 275/1178
+[google_search_script]     進捗: 280/1178
+[google_search_script]     進捗: 285/1178
+[google_search_script]     進捗: 290/1178
+[google_search_script]     進捗: 295/1178
+[google_search_script]     進捗: 300/1178
+[google_search_script]     進捗: 305/1178
+[google_search_script]     進捗: 310/1178
+[google_search_script]     進捗: 315/1178
+[google_search_script]     進捗: 320/1178
+[google_search_script]     進捗: 325/1178
+[google_search_script]     進捗: 330/1178
+[google_search_script]     進捗: 335/1178
+[INTERRUPT] google_search_script interrupted by user.
+[INFO] Interrupted by user.
