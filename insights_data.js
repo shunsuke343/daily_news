@@ -1,5 +1,37 @@
 window.DAILY_INSIGHTS = [
     {
+        date: "2026-02-23",
+        analysis: {
+            jp: "日本の自動車外装市場は**カスタマイズ**と**実用性の両立**がトレンド。**アルミ骨格**や**FRPボディ**の導入で軽量かつタフなデザインが注目され、**EV化**と**高級感**の融合も進んでいる。**ガラスフィルム**の合法化でカスタム自由度が広がり、**高齢者向けEV**や**農民車の復刻**も社会的ニーズを反映。自社開発では**低重心・軽量素材**と**高級内装との統合**、**HMI連携型外装機能**を提案すべき。",
+            cn: "中国市場では**安全規制**が強化され、**完全隠しハンドル**の禁止が2027年施行。一方で、**オフロードSUV**や**PHEVピックアップ**の導入が進み、**EV化**と**機能拡張**がトレンド。**蔚来**の充電交換数が4連覇、**MG**が欧州で中国ブランド首位に。外装開発では**実用性**と**安全性**の両立が求められ、**デザイン革新**と**規制対応**を両立させる必要がある。",
+            in: "インド市場では**高張力射出成形機**や**2メートル単体ライトバー**の導入が進み、**太陽光発電**を活用した環境負荷低減が主流化。**ADAS搭載**や**スリムLED**の普及により、**安全・機能性**が重視される傾向。**価格競争**が激化しており、**Apple CarPlay対応**や**10.2インチディスプレイ**などの高機能化が差別化ポイント。自社開発では、**省エネ素材**と**スマート機能統合**が必須。",
+            us: "US市場では**空力性能**と**レトロデザイン**の両立が注目され、**LEDテールライト**の高輝度化・耐久性が求められている。**ボディ保護グッズ**の需要も高まり、**UV劣化対策**や**セラミックコーティング**が主流化する傾向。**電動化**と**オフロード性能**の両立（例：Honda TrailSport）が新たなトレンド。外装開発では**空力最適化**と**耐久性素材**、**デザインのレトロモダン融合**を重視すべき。",
+            eu: "EU市場では**電気化**と**伝統的デザインの現代再解釈**がトレンド。AlpineやMercedesが**EVプラットフォーム**を活用しつつ、**G-Classのラダーフレーム**や**Red Pigのスターヘッドランプ**といったアイコンを復活させている。**Car2X通信技術**の実用化により、**安全性と快適性**の両立が進む。外装開発では、**レトロモダンデザイン**と**スマート機能統合**が重要。",
+        },
+        ideas: {
+            jp: [
+                { id: 281, img: "images/idea_dummy.svg", title: "HMI連携型「スマートガラスフィルム」", desc: "光透過率70%以上の**オーロラフィルム**をHMIで操作可能。日中の眩しさを防ぎつつ、夜間の視界を保ち、スマートフォンで色調・明度を調整。**高齢者や女性**にもうれしい使い勝手で、**外装のカスタム自由度**を飛躍的に向上。", imagePrompt: "Smart glass film on car windshield with holographic HMI interface, adjustable color and brightness, luxury car exterior, ambient lighting effects, modern automotive design, photorealistic rendering, cinematic lighting, high detail, 4K quality" },
+                { id: 282, img: "images/idea_dummy.svg", title: "軽量アルミ骨格「GR GT」ベースのカスタムフレーム", desc: "トヨタの**GR GTプロトタイプ**のアルミ骨格をベースに、軽量かつ剛性の高いカスタムフレームを提供。**FRPボディ**との組み合わせでスタイリッシュかつ実用的な外装を実現。**20代〜30代のカスタマーサポート**にうれしい、**低コスト・高パフォーマンス**の新規参入を可能に。", imagePrompt: "Customizable aluminum frame based on Toyota GR GT prototype, lightweight and rigid design, FRP body integration, modern racing aesthetics, luxury car exterior, photorealistic rendering, cinematic lighting, high detail, 4K quality" },
+            ],
+            cn: [
+                { id: 283, img: "images/idea_dummy.svg", title: "安全ハンドルレス・3Dマルチセンサー外装", desc: "完全隠しハンドルを避け、60mm×20mm×25mmの操作空間を確保。3Dセンサーでドア開閉を自動化し、手を触れないで開閉可能。安全面で安心感と、スマートな操作感でユーザーを魅了。日常の走行をよりストレスフリーに。", imagePrompt: "Automotive exterior with hidden door handles, 3D sensor array integrated into door frame, futuristic design with sleek lines, ambient lighting, photorealistic 3D render, premium quality, cinematic lighting, high detail, 4K" },
+                { id: 284, img: "images/idea_dummy.svg", title: "オフロード4モーター・スマートアドバンスドエアロ", desc: "红旗の4モーター・オフロードSUVをモチーフに、スマートエアロディザインで空力性能を最大化。走行中に自動的に空気抵抗を調整し、走行距離を伸ばす。オフロード性能と快適な走行を両立。アウトドア愛好家に「走る喜び」を届ける。", imagePrompt: "Off-road SUV with 4-motor drive system, advanced aerodynamic design with adaptive airflow, rugged yet sleek exterior, matte black and metallic accents, photorealistic 3D render, cinematic lighting, high detail, 4K" },
+            ],
+            in: [
+                { id: 285, img: "images/idea_dummy.svg", title: "太陽光充電式スマートライトバー", desc: "太陽光発電で駆動する2メートル単体ライトバー。夜間は自動点灯し、スマートフォンとの連携で色や明るさをカスタマイズ。高輝度LED＋省エネ素材で長時間使用可能。車内から遠くまで視認性を確保し、**夜間走行の安心感とスタイリッシュさ**を両立。", imagePrompt: "Solar-powered smart LED light bar, 2-meter length, integrated with smartphone app control, sleek modern design, ambient lighting effects, brushed aluminum finish, photorealistic rendering, cinematic lighting, high detail, 4K quality" },
+                { id: 286, img: "images/idea_dummy.svg", title: "AI連動式グリル・センサー一体型外装パネル", desc: "AIが車両状態に応じてグリルの開閉や色を自動調整する外装パネル。**走行モード**や**気温**に応じて冷却・暖房効果を最適化。**視認性と空力性能**を両立し、**操作が簡単で洗練されたデザイン**が魅力。ユーザーの**ドライブ体験を快適に、スマートに**アップデート。", imagePrompt: "AI-responsive exterior grille panel, adaptive color and opening mechanism based on driving mode and temperature, sleek aerodynamic design, integrated sensor system, metallic finish with ambient glow, photorealistic 3D render, professional product visualization, cinematic lighting, high detail, 4K quality" },
+            ],
+            us: [
+                { id: 287, img: "images/idea_dummy.svg", title: "RetroAero レトロ空力パッケージ", desc: "1940年代モチーフのレトロデザインと現代空力性能を融合したボディパネル。白い屋根・ストライプが特徴で、風抵抗を30%削減。高級感とユニークさでSUV市場を制覇。装着後は「車が美しくなった」と感じる快感が特徴。", imagePrompt: "RetroAero package for modern SUV, vintage 1940s styling with aerodynamic curves, white roof and side stripes, brushed aluminum accents, cinematic lighting, photorealistic 3D render, premium automotive design" },
+                { id: 288, img: "images/idea_dummy.svg", title: "UVShield プロテクトテールライト", desc: "UV劣化に強いセラミックコーティングを施したLEDテールライト。50,000時間寿命で、明るさは3年経過でも90%維持。雨天でも視認性が抜群で、「夜道でも安心」という安心感と、「見た目も美しくてカッコいい」という満足感を両立。", imagePrompt: "UVShield protect tail light, ceramic-coated LED, modern SUV rear, blue accent lighting, rainproof design, photorealistic 3D render, premium automotive exterior, cinematic lighting, high detail" },
+            ],
+            eu: [
+                { id: 289, img: "images/idea_dummy.svg", title: "レトロモダンヘッドランプ「Starlight Vision」", desc: "1970年代のレッド・ピッグをモチーフにしたスターヘッドランプを、LEDとAR表示で現代化。夜間走行で虹色の光を放ち、視認性と存在感を両立。ドライバーの「個性を輝かせる」喜びを提供。", imagePrompt: "Starlight Vision headlamp concept with retro-modern design inspired by Red Pig, glowing star-shaped LED array with holographic accents, sleek automotive exterior, brushed aluminum finish, cinematic lighting, photorealistic 3D render, premium luxury car design" },
+                { id: 290, img: "images/idea_dummy.svg", title: "スマートフロントグリル「EcoFlex Grille」", desc: "電気自動車に最適な空力最適化グリルで、走行中は空気を流し、停止時は自動で閉じて風防の視界を確保。温かみのあるマットブラックとLED内蔵で、見た目も機能性も抜群。ユーザーは「スマートで洗練されたデザイン」を実感。", imagePrompt: "EcoFlex Grille concept for electric vehicles, aerodynamic front grille with integrated LED lighting, matte black finish, dynamic airflow visualization, modern vehicle exterior, cinematic lighting, photorealistic 3D render, premium automotive design" },
+            ],
+        }
+    },
+{
         date: "2026-02-10",
         analysis: {
             jp: "日本市場では**HMI**と**新素材**の融合が進み、フェラーリのEV「ルーチェ」が**物理操作＋デジタルUI**を採用。**カスタマイズ**需要も高まり、NATS学生のカスタムヴェルファイアが車検通過。**シート**機能の進化（セレナマルチベッド）や**EV**の普及（BYD DOLPHIN）がトレンド。内装製品開発では、**ユーザー体験重視の物理＋デジタル融合**、**カスタマイズ性の高い素材**、**快適性を高める機能**が重要。",

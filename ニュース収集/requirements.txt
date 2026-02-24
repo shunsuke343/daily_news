@@ -6,3 +6,4 @@ feedparser
 duckduckgo-search
 deep-translator
 Pillow
+playwright<1.40
