@@ -1,5 +1,37 @@
 window.DAILY_INSIGHTS = [
     {
+        date: "2026-02-24",
+        analysis: {
+            jp: "日本市場では**スポーツ性能**と**カスタマイズ自由度**が注目され、**外装デザイン**の革新が進んでいる。**電動化**も加速し、**EV車両の外装**は実用性とスタイリッシュさを両立させる必要がある。**レトロモダン**や**限定モデル**が人気で、**ノスタルジック**な要素を活用した外装製品が好まれる傾向にある。自社開発では、**限定モデルのアクセサリー**や**カスタムパーツ**に注力し、**ユーザーの個性表現**を支援する製品が市場で差別化できる。",
+            cn: "中国市場では**BYDの急速充電インフラ拡充**と**小米の「赤霞紅」新色**が注目。**固体電池**の試装は技術トレンドとして重要。消費者は**デザイン・色・充電利便性**を重視。競合は**EV充電インフラ**と**外装デザイン**で差別化。規制は**充電基準**と**安全性**に焦点。サプライチェーンは**中国内での充電器生産**と**電池供給**が鍵。自社開発では**充電インフラ連携型外装**と**高デザイン性のカラーバリエーション**を推進。",
+            in: "インド市場では**EV規制**（CAFE-3・BS-VII）が加速し、**サプライチェーン強化**と**限定モデル**（Willys 41）が注目。消費者は**歴史的デザイン**や**限定性**を求める傾向。**競合他社**は価格戦略と**技術革新**で対応。自社開発では**文化的価値**と**耐久性**を融合した外装製品が差別化ポイント。",
+            us: "アメリカ市場では**高級オフロードSUV**の開発が活発化しており、リンコンやフォードがG-Wagenやラングラーに対抗する製品を構想中。**フロントトランク**のオプション化はコスト意識の変化を示す。**EV化**と**ボディ拡大**がトレンドで、**サプライチェーンの再編**も影響。外装開発では、**機能性と豪華さの両立**、**カスタマイズ性**、**環境対応**が重要。",
+            eu: "欧州市場では**EV化**が進み、**価格戦略**と**走行距離**のバランスが重要。**Lepas L8**は**価格競争力**を強化し、**Chery Tiggo 9ベース**でコスト削減。**MG Cyberster Superleggera**は**軽量化**と**特別仕様**で差別化。**軍事転換**はサプライチェーンへの影響を示唆。外装開発では**デザインの個性**と**低コスト素材**の活用が鍵。",
+        },
+        ideas: {
+            jp: [
+                { id: 291, img: "images/idea_dummy.svg", title: "限定モデル用「GR Heritage カスタムキット」", desc: "AE86やGT-Rの復刻パーツをモダンに再解釈。マットブラック・フォージドカーボン仕様で、ユーザーの車両に「レトロな魂」を注入。限定販売でコレクターの心を掴み、**「昔の名車を今に蘇らせた」喜び**を提供。", imagePrompt: "Retro-modern automotive exterior kit for GR Heritage, matte black and forged carbon finish, installed on a modern sports car, nostalgic racing elements, cinematic lighting, photorealistic 3D render, premium automotive design" },
+                { id: 292, img: "images/idea_dummy.svg", title: "AI応答型「スマートリアウイング」", desc: "車両の走行状態に応じて自動で角度を調整するリアウイング。**「走行に合わせて風の抵抗を最適化」する快適さ**と、**「見た目で自分を表現する自由」**を両立。スマートフォンアプリでカスタムデザインも可能。", imagePrompt: "AI-responsive smart rear wing on a sports car, aerodynamic adjustment based on speed, sleek carbon fiber design, dynamic lighting effects, photorealistic 3D render, futuristic automotive exterior" },
+            ],
+            cn: [
+                { id: 293, img: "images/idea_dummy.svg", title: "「赤霞紅」限定パネルキット：夢の色を車に", desc: "小米SU7の「赤霞紅」をベースに、限定外装パネルキットを提供。高級感のある光沢仕上げと、夢の色を体感できる「夢の色」LEDアクセント。車を夢の車に。デザインと機能性を兼ね備えた、新規顧客獲得の武器。うれしさ：「夢の車」を自宅で体験できる。", imagePrompt: "Dream car exterior panel kit with 'Chì Xiá Hóng' red finish, luxury car body, reflective surface, ambient LED lighting accents, photorealistic rendering, cinematic lighting, high detail, 4K quality" },
+                { id: 294, img: "images/idea_dummy.svg", title: "「充電マジック」パネル：充電状態を美しく", desc: "充電中の車両に、**充電状態を光で表現する外装パネル**を搭載。充電率に応じてLEDが変化し、充電中もデザインとして楽しめる。充電インフラと連動し、充電の楽しさを視覚化。うれしさ：充電も「楽しみ」になる。", imagePrompt: "Charging status indicator panel on car exterior, LED lights change color with charging progress, futuristic car design, photorealistic rendering, cinematic lighting, high detail, 4K quality" },
+            ],
+            in: [
+                { id: 295, img: "images/idea_dummy.svg", title: "Willys 41 リミテッドエディション・パワードサイドステップ", desc: "1941年型Willys MBをモチーフにした限定41台のWranglerに、パワードサイドステップを標準装備。戦闘機風のグリーンペイントと「41」デカールで、軍事ファンの心を掴む。価格プレミアムINR 20万で、限定感と機能性を両立。うれしさは、歴史と現代技術が融合した「唯一無二の存在感」。", imagePrompt: "Limited edition Jeep Wrangler Willys 41, power-assisted side steps, military green paint with '41' decals, rugged off-road design, brushed aluminum accents, cinematic lighting, photorealistic 3D render, premium automotive exterior, high detail, 4K quality" },
+                { id: 296, img: "images/idea_dummy.svg", title: "G-Wagon風コンパクトEV SUVの「軍事クラフト」外装パッケージ", desc: "MGのG-Wagon風EV SUVに、軍事デザインを応用した外装パッケージを提供。ブラック・オパール・カモフラージュカラー、耐衝撃アーマー仕様、LEDランプの「戦闘機風」デザイン。価格は20万円のオプションで、軍事ファンやアウトドア愛好家に「自分だけの戦闘車」を提供。うれしさは、日常のドライブが「戦闘機の走り」に変わる感覚。", imagePrompt: "Compact EV SUV with G-Wagon-inspired military craft exterior package, matte black and camouflage color scheme, armored body panels, battle-ready LED lighting, rugged off-road stance, photorealistic 3D render, cinematic lighting, premium automotive design, high detail, 4K quality" },
+            ],
+            us: [
+                { id: 297, img: "images/idea_dummy.svg", title: "AIパーソナライズドフロントトランク", desc: "車両の運転スタイルに応じて自動で香りや照明を調整するフロントトランク。高級感と個性を両立し、毎日が特別な気分に。AIが好みを学び、季節や気分に合わせた演出で、ドライバーのストレスを軽減。まるで車が友達になったような、心地よい体験を提供。", imagePrompt: "AI-powered personalized front trunk with ambient scent and lighting, luxury SUV exterior, futuristic vehicle design, holographic interface, soft glowing lights, premium materials, photorealistic 3D render, cinematic lighting, high detail, 4K quality" },
+                { id: 298, img: "images/idea_dummy.svg", title: "サブブランド向け限定デザインパッケージ", desc: "CJLRや他のサブブランド向けに、限定デザインのボディキットを提供。高級感と独特のスタイルを融合させ、個性的な外観で差別化。価格帯を抑えた高品質で、購入者の「自分だけの車」の喜びを最大限に。家族や友人に見せる誇りと、自分だけの特別感を味わえる。", imagePrompt: "Limited-edition exterior design package for sub-brand SUVs, unique matte finish and bold decals, premium automotive styling, modern SUV silhouette, custom alloy wheels, photorealistic 3D render, professional product visualization, cinematic lighting, high detail, 4K quality" },
+            ],
+            eu: [
+                { id: 299, img: "images/idea_dummy.svg", title: "軽量高級仕様「Superleggera」外装キット", desc: "MG Cybersterの軽量化コンセプトを基に、アルミ合金とカーボンファイバーで構成した外装キット。重量を30kg削減し、スポーツ走行に最適。限定色と特殊塗装で「プレミアム感」を演出。乗り出しの瞬間、**“軽さと美しさが融合した快感”**を体感できる。", imagePrompt: "Lightweight premium exterior kit for MG Cyberster, carbon fiber and aluminum alloy body panels, sporty design with aerodynamic curves, matte black and metallic gold finish, high-end automotive exterior, photorealistic 3D render, cinematic lighting, 4K quality" },
+                { id: 300, img: "images/idea_dummy.svg", title: "価格競争力強化「Lepas L8 ライトエディション」", desc: "Lepas L8の低価格モデルに、**デザインの個性**を加えた外装パッケージ。マットブラックのグリルとLEDデイタイムランプで高級感を演出。**£3万未満**で手に入る「実用性×スタイリッシュ」のコンセプト。**「ちょっとしたカスタムで、自分だけの車に」**という喜びを提供。", imagePrompt: "Budget-friendly exterior package for Lepas L8, matte black grille, LED daytime running lights, sporty SUV design, metallic gray body with contrast trim, photorealistic rendering, modern vehicle exterior, cinematic lighting, 4K quality" },
+            ],
+        }
+    },
+{
         date: "2026-02-23",
         analysis: {
             jp: "日本の自動車外装市場は**カスタマイズ**と**実用性の両立**がトレンド。**アルミ骨格**や**FRPボディ**の導入で軽量かつタフなデザインが注目され、**EV化**と**高級感**の融合も進んでいる。**ガラスフィルム**の合法化でカスタム自由度が広がり、**高齢者向けEV**や**農民車の復刻**も社会的ニーズを反映。自社開発では**低重心・軽量素材**と**高級内装との統合**、**HMI連携型外装機能**を提案すべき。",
